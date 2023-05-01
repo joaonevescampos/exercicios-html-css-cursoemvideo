@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Dinâmicas</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Ao diminuir essa tela, aparecerá imagens de diferentes tamanhos, podendo ser P (pequena), M (média) ou G (grande).</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/imagem-m.png" type="image/png">
+        <img src="Imagens/imagem-g.png" alt="imagem flexível">
+    </picture>
+    
+</body>
+</html>
