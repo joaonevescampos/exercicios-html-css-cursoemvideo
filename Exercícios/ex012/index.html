@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo Videos</title>
+</head>
+<body>
+    <h1>Inserindo vídeos localmente (do meu pc)</h1>
+    <h2>Maneira 1:</h2>
+    <p>Apenas um formato disponível: mp4.</p>
+    <video src="videos/meu-video.mp4" width="560" controls></video>
+
+    <h2>Maneira 2:</h2>
+    <p>Vários formatos de vídeos diferentes (mp4, ogv, w4v, webm) para se adaptar a cada navegador.</p>
+    <video controls autoplay width="560" poster="imagens/limoes-capa.png">
+        <source src="videos/meu-video.mp4" type="video/mp4">
+        <source src="videos/meu-video.m4v" type="video/mp4">
+        <source src="videos/meu-video.webm" type="video/webm">
+        <source src="videos/meu-video.ogv" type="video/ogv">
+        <p>Infelizmente seu navegador não pode reproduzir videos.</p>
+    </video>
+    <h1>Inserindo vídeos externos</h1>
+        <p>Serão adicionados vídeos hospedados externamente, como o Youtube, por exemplo. É uma maneira muito melhor de adicionar vídeos, pois economiza no consumo de dados. </p>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OzUnqQk4eOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+</body>
+</html>

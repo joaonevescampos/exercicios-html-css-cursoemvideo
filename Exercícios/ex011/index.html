@@ -8,12 +8,22 @@
 </head>
 <body>
     <h1>Imagens dinâmicas</h1>
-    <p>Ao diminuir essa tela, aparecerá imagens de diferentes tamanhos, podendo ser P (pequena), M (média) ou G (grande).</p>
+    <p>Ao diminuir e aumentar essa tela, aparecerá imagens de diferentes tamanhos, podendo ser P (pequena), M (média) ou G (grande) se adaptando ao tamanho de cada tela.</p>
     <picture>
-        <source media="(max-width: 750px)" srcset="Imagens/imagem-p.png" type="image/png">
-        <source media="(max-width: 1050px)" srcset="Imagens/imagem-m.png" type="image/png">
-        <img src="Imagens/imagem-g.png" alt="imagem flexível">
+        <source media="(max-width: 750px)" srcset="imagens/imagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/imagem-m.png" type="image/png">
+        <img src="imagens/imagem-g.png" alt="imagem flexível">
     </picture>
-    
+
+    <h1>Áudio</h1>
+    <p>Testando colocar audio de duas formas diferentes</p>
+    <h2>Maneira 1:</h2>
+    <audio src="audios/guanacast-33.mp3" autoplay controls></audio>
+
+    <h2>Maneira 2:</h2>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="audios/guanacast-33.mp3" type="audio/mpeg">
+        <!--Pode-se colocar outras sources caso o navegador não reconheça o mp3. Aceita wav e ogg, por exemplo.-->
+    </audio>
 </body>
 </html>
