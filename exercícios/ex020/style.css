@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+div{
+    text-align: center;
+    background-color: rgb(122, 122, 255);
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+}
+#textoescondido > p{
+    display:none;
+}
+#textoescondido:hover > p{
+    display: block;
+    background-color: blueviolet;
+    color: beige;
+    text-align: center;
+}
+
+.d1:hover{
+    background-color: yellow;
+}
+.d2:hover{
+    background-color: pink;
+}
+.d3:hover{
+    background-color: chartreuse;
+}
