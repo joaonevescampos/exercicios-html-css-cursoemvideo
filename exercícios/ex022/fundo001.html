@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testando fundo</title>
+    <style>
+        :root{
+            --cor01:#356625;
+            --cor02:#08fd59;
+        }
+        div.quadrado{
+            width: 300px;
+            height: 300px;
+            border: solid 3px #000000;
+            display: inline-block;
+            border-radius: 10px;
+        }
+        div#q1{
+            background-color: var(--cor01);
+        }
+        div#q2{
+            background-image: linear-gradient(to bottom, #551554, #ff9bc6);
+        }
+        div#q3{
+            background-image: url("imagens/pattern003.png");
+        }
+    </style>
+</head>
+<body>
+   <div class="quadrado" id="q1"></div>
+   <div class="quadrado" id="q2"></div>
+   <div class="quadrado" id="q3"></div>
+ 
+</body>
+</html>
