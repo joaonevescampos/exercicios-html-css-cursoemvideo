@@ -25,12 +25,12 @@ header{
 }
 
 header > h1{
-    font-size: 30px;
+    font-size: 5vw;
     padding: 10px;
 }
 
 header > h2{
-    font-size: 18px;
+    font-size: 2vw;
 }
 
 /* ======= MAIN ======= */
@@ -80,5 +80,6 @@ footer{
 
 footer > p{
     text-align: center;
+    font-size: 3vw;
 
 }
