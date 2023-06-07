@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 3</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome" autocomplete="name" placeholder="Digite seu nome">
+        </p>
+        
+        <p>
+            <label for="inumero">Idade:</label>
+            <input type="number" name="numero" id="inumero" autocomplete="cc-number" placeholder="Sua idade(número)">
+        </p>
+
+        <p>
+            <label for="iperiodo">Período Letivo:</label>
+            <input type="month" name="periodo" id="iperiodo">
+        </p>
+
+        <p>
+            <label for="inascimento">Data de nascimento</label>
+            <input type="date" name="nascimento" id="inascimento" value="2000-01-01">
+        </p>
+
+        <p>
+            <label for="ihora">Horário:</label>
+            <input type="time" name="hora" id="ihora" value="00%3A00">
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
