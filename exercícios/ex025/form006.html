@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário 6</title>
+</head>
+<body>
+    <h1>Formulário 6</h1>
+    <form action="cadastro.php" method="post"
+    autocomplete="on">
+
+    <fieldset>
+        <legend>Cores</legend>
+        <label for="icor">Cor</label>
+        <input type="color" name="cor" id="icor" value="#ffff00"><br>
+    </fieldset><br>
+
+    <fieldset>
+        <legend>Nível</legend>
+        <label for="inivel">Selecione</label>
+        <input type="range" name="nivel" id="inivel" min="1" max="4">
+    </fieldset><br>
+
+    <fieldset>
+        <legend>Arquivo</legend>
+        <label for="ifoto">Adicione uma foto</label>
+        <input type="file" name="foto" id="ifoto">
+    </fieldset><br>
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+    </form>
+
+    
+</body>
+</html>
