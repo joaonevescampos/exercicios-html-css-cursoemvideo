@@ -1,0 +1,32 @@
+/* Configurações gerais */
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #233eff;
+}
+
+/* Configurações paisagem */
+
+@media screen and (orientation: landscape) {
+    body{
+        background-image: url(../imagens/cev-landscape.jpg);
+        background-position: left bottom;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100vh;
+        width: 100vw;
+    } 
+}
+
+@media screen and (orientation: portrait) {
+    body{
+        background-image: url(../imagens/cev-portrait.jpg);
+        background-position: left center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 100vh;
+        width: 100vw;
+    
+    }
+}
