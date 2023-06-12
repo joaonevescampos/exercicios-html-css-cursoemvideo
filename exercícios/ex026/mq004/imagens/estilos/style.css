@@ -97,3 +97,18 @@ body{
         background-image: url(../back-tv.jpg)
     }
 }
+
+@media print{
+
+    header{
+        border: solid 1px black;
+    }
+    h1{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body::after{
+        content: "Versão para impressora!";
+
+    }
+}
